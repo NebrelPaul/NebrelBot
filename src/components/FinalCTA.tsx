@@ -15,7 +15,7 @@ export function FinalCTA() {
             Nebrel<span className="text-accent">Bot</span>
           </p>
           <h2 className="mt-3 font-display text-2xl font-bold tracking-tight sm:text-3xl">
-            Dein Server. Deine Rules. Ein Dashboard.
+            Dein Server. Deine Regeln. Ein Dashboard.
           </h2>
           <p className="mx-auto mt-4 max-w-lg text-base text-fg-muted">
             Lade den Bot ein und richte dein erstes Modul in unter fünf Minuten
