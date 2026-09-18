@@ -5,32 +5,61 @@ von Paul
 
 Nach wahren Begebenheiten
 aus dem Leben von Taylor Swift
-(Master-Skandal – einfach für die Schule)
+(Master-Skandal / Big Machine Records)
 
-2. Fassung, 18. September 2026
-Musikklasse 7
+Kurzfilm ca. 10 Minuten – Musik Klasse 7
+
+3. Fassung, 18. September 2026
 ALLE RECHTE BEI DEN AUTOREN
 
 
 ============================================================
-SO DREHT IHR DAS VIDEO (Klasse 7)
+VIDEO-PLAN (mind. 10 Minuten)
 ============================================================
-Länge: ca. 2–3 Minuten
-Orte: nur 2 (Klassenzimmer-Ecke = „Zimmer“, Aula = „Bühne“)
-Rollen: 5
-  1. Taylor
-  2. Scott (Manager)
-  3. Friend (beste Freund:in)
-  4. Fan 1
-  5. Fan 2
-Props: Gitarre (oder Karton), Stift + Papier (Vertrag),
-       Handy, Mikrofon/Besenstiel, 2 Schilder, 1 Schild
-       „TAYLOR'S VERSION“
-Kamera: ein Handy reicht
+Regel aus der Format-PDF: 1 Drehbuchseite ≈ 1 Filmminute.
+Dieses Drehbuch hat 10 Seiten → Ziel: ca. 10 Minuten Video.
+
+ZEITPLAN (grobe Minuten)
+  0:00–1:00   Zimmer: Songs schreiben + Friend
+  1:00–2:00   Anruf Scott + Büro / Vertrag
+  2:00–3:30   Radio + erste grosse Bühne
+  3:30–4:30   Flur + Nachrichten „Erfolg“
+  4:30–6:00   Skandal-Anruf + Journalistin draussen
+  6:00–7:00   Nachrichten + Protest-Schilder
+  7:00–8:00   Zimmer: Idee Taylor's Version
+  8:00–8:45   Streit mit Scott
+  8:45–9:30   Studio-Aufnahme
+  9:30–10:30  Finale Bühne + Klassenzimmer-Epilog
+
+ORTE (Schule – nur 4 Settings)
+  1. Kleines Zimmer   = Klassenzimmer-Ecke / Gruppenraum
+  2. Büro / Radio / Nachrichten / Studio = gleicher Tisch,
+     nur anderes Schild aufstellen
+  3. Aula-Bühne       = Aula oder vor der Tafel
+  4. Flur / Schulhof  = Gang vor der Klasse
+
+ROLLEN (8 – Doppelrollen ok)
+  Taylor, Friend, Scott, Fan 1, Fan 2,
+  Radio-DJ, Journalistin, Nachrichtensprecher,
+  Tontechniker, Musiklehrer, Schüler:in
+  → eine Person kann z.B. Radio-DJ + Tontechniker +
+    Musiklehrer spielen (nur Outfit/Schild wechseln)
+
+PROPS
+  Gitarre, Notizbuch, Vertrag + Stift, Handy,
+  Mikrofon, 4 Schilder (TAYLOR!, WE LOVE YOU,
+  OWN YOUR MASTERS, TAYLOR'S VERSION),
+  Jackett für Scott, Glitzer/Outfit für Bühne
+
+TIPPS FÜR 10 MINUTEN LÄNGE
+  • Songs: je 20–40 Sekunden summen/spielen (nicht nur 5 Sek.)
+  • APPLAUS und Fan-Szenen länger halten
+  • Zwischen Szenen 1 Sek. schwarz (Finger vor Linse)
+  • Abspann 20–30 Sek. mit Namen
 
 
 ------------------------------------------------------------
-DREHBUCH
+DREHBUCH (formatiert auch als PDF)
 ------------------------------------------------------------
 
 
@@ -39,144 +68,675 @@ AUFBLENDE:
 
 INT. KLEINES ZIMMER - TAG
 
-Ein einfacher Raum. Ein Stuhl. Eine Gitarre.
-TAYLOR, 16, schüchtern, freundlich, mit Notizbuch,
-sitzt und tippt mit dem Stift auf den Tisch. RHYTHMUS.
+Ein einfacher Raum. Bett. Schreibtisch. Poster an der
+Wand. Eine Gitarre lehnt am Stuhl.
 
-Sie greift zur Gitarre und singt leise einen kurzen
-Songanfang. (Echte Taylor-Musik nur leise im
-Hintergrund – oder selbst summen.)
+TAYLOR, 15, schüchtern, freundlich, mit langen Haaren
+und einem Notizbuch voller Texte, sitzt am Schreibtisch.
+Sie schreibt. Streicht durch. Schreibt neu.
 
-Die TÜR geht auf. SCOTT, 40, laut, selbstsicher, im
-Jackett, kommt rein. In der Hand: ein Vertrag.
-
-
-                         SCOTT
-           Taylor! Deine Songs sind super.
-           Unterschreib hier – und du wirst
-           berühmt.
+Sie greift zur Gitarre. Spielt drei einfache Akkorde.
+Summt leise. Stoppt. Lächelt.
 
 
                          TAYLOR
-                       (unsicher)
-           Wirklich? Gehören die Songs dann mir?
+           Das klingt... fast wie ein richtiger
+           Song.
+
+Sie tippt den Titel auf die Seite: MEIN ERSTER HIT.
+Dann schreibt sie darunter: Noch geheim.
+
+Die TÜR geht auf. FRIEND, 15, ehrlich, mutig, mit
+Kapuze, kommt rein und setzt sich aufs Bett.
+
+
+                        FRIEND
+           Schon wieder Songs schreiben? Du
+           hörst nie auf!
+
+
+                         TAYLOR
+           Weil Musik das Einzige ist, das sich
+           echt anfühlt.
+
+
+                        FRIEND
+           Irgendwann hört dich die ganze Welt.
+
+
+                         TAYLOR
+                      (lacht leise)
+           Träum weiter.
+
+Friend zeigt auf die Gitarre.
+
+
+                        FRIEND
+           Spiel den neuen. Nur für mich.
+
+Taylor spielt kurz. Friend klatscht. Beide lachen.
+HANDY VIBRIERT auf dem Tisch.
+
+
+                         TAYLOR
+           Unbekannte Nummer...
+
+Sie nimmt ab. Hält das Handy ans Ohr.
+
+
+INT. KLEINES ZIMMER - TAG (WEITER)
+
+Aus dem Lautsprecher (Handy): die Stimme von SCOTT.
+
+
+                      SCOTT (O.S.)
+           Hallo Taylor? Hier ist Scott von
+           Big Machine Records. Ich habe deine
+           Demo gehört.
+
+
+                         TAYLOR
+                     (Augen weit)
+           Ernsthaft?!
+
+
+                      SCOTT (O.S.)
+           Kommt morgen in mein Büro. Bring die
+           Gitarre mit.
+
+Taylor legt auf. Schreit vor Freude. Friend springt auf.
+
+
+                        FRIEND
+           WAS?! Sag alles!
+
+
+                         TAYLOR
+           Ein Label! Die wollen mich!
+
+
+                        FRIEND
+           Dann gehst du hin. Und ich komme mit.
+
+Sie umarmen sich. Kurzer MUSIKSTINGER – hoffnungsvoll.
+
+
+INT. BÜRO - TAG
+
+Ein Schreibtisch. Ein Stuhl. Ein Schild auf dem Tisch:
+BIG MACHINE RECORDS. (Klassenzimmer-Ecke reicht.)
+
+SCOTT, 40, laut, selbstsicher, im Jackett, sitzt da.
+Vor ihm ein Vertrag und ein Stift.
+
+Taylor und Friend kommen rein. Taylor hält die Gitarre
+fest, als wäre sie ein Schild.
 
 
                          SCOTT
-           Du singst. Wir kümmern uns um den
-           Rest. Vertrau mir.
+           Da ist unser neuer Star! Setz dich.
 
-Taylor zögert. Dann unterschreibt sie. KLICK.
-Scott lächelt.
+Taylor setzt sich. Friend bleibt stehen.
 
 
                          SCOTT
-           Willkommen im Showbusiness.
+           Deine Songs sind gut. Wirklich gut.
+           Wir machen dich gross. Radio. Bühne.
+           Fans.
 
 
-INT. SCHULAULA - BÜHNE - TAG
+                         TAYLOR
+           Und die Songs? Gehören die dann mir?
 
-Taylor steht auf der Bühne mit Mikrofon. Sie trägt
-etwas Glitzer oder ein cooles Outfit. Vor der Bühne:
-FAN 1 und FAN 2 mit Schildern: TAYLOR! und #1.
 
-APPLAUS von den Fans. Taylor verbeugt sich, lacht,
-winkt.
+                         SCOTT
+           Du schreibst. Du singst. Wir besitzen
+           die Master-Aufnahmen. So läuft das
+           Geschäft.
+
+
+                        FRIEND
+                     (zu Taylor)
+           Das klingt komisch.
+
+
+                         SCOTT
+           Ohne uns keine Bühne. Ohne Vertrag
+           kein Traum.
+
+Stille. Taylor sieht Friend an. Dann den Vertrag.
+Dann Scott.
+
+
+                         TAYLOR
+           Ich will singen. Ich unterschreibe.
+
+Sie unterschreibt. KLICK des Stifts. Scott gibt
+ihr die Hand.
+
+
+                         SCOTT
+           Willkommen im Showbusiness, Taylor
+           Swift.
+
+Friend schaut skeptisch. Taylor strahlt trotzdem.
+
+
+INT. RADIOSTUDIO - TAG
+
+Ein Tisch. Zwei Mikrofone. Ein Schild: RADIO HIT FM.
+RADIO-DJ, 30, locker, mit Kopfhörern, sitzt bereit.
+
+Taylor sitzt gegenüber, nervös, aber aufgeregt.
+
+
+                       RADIO-DJ
+           Live bei uns: Taylor Swift! Dein Song
+           läuft gerade überall. Wie fühlt sich
+           das an?
+
+
+                         TAYLOR
+           Wie ein Traum. Ich habe das Lied in
+           meinem Zimmer geschrieben. Und jetzt
+           hören es Fremde.
+
+
+                       RADIO-DJ
+           Und der nächste Plan?
+
+
+                         TAYLOR
+           Mehr Songs. Mehr Ehrlichkeit. Und
+           vielleicht... eine grosse Tour.
+
+Der DJ drückt einen Knopf. KURZER SONG-AUSSCHNITT
+aus dem Lautsprecher. Taylor schliesst die Augen
+und hört zu.
+
+
+INT. SCHULAULA - BÜHNE - ABEND
+
+Scheinwerfer (Taschenlampen reichen). Taylor steht
+im coolen Outfit am Mikrofon.
+
+Vor der Bühne: FAN 1 und FAN 2 mit Schildern
+TAYLOR! und WE LOVE YOU. Friend filmt mit dem Handy.
+
+APPLAUS. Taylor atmet tief durch.
+
+
+                         TAYLOR
+           Dieser Song ist für alle, die an sich
+           glauben!
+
+Sie spielt und singt einen kurzen Teil. Die Fans
+mitsingen. Scott steht seitlich und klatscht –
+zufrieden wie ein Chef.
 
 
                          FAN 1
-           Taylor, wir lieben dich!
+           Noch einen! Noch einen!
 
 
                          TAYLOR
-           Danke! Ohne euch geht gar nichts!
+           Okay... einen letzten!
 
-Fan 2 hält ein Handy hoch. Auf dem Display eine
-grosse Nachricht (Schild oder Papier aufs Handy
-kleben):
-
-SKANDAL: Andere besitzen jetzt Taylors Songs!
-
-LEISES MURMELN. Taylor sieht das Handy.
-Ihr Lächeln fällt.
+Noch ein kurzer Refrain. Grosser APPLAUS. Taylor
+verbeugt sich. Strahlt.
 
 
-INT. KLEINES ZIMMER - TAG
+                         FAN 2
+           Du bist die Beste!
 
-Taylor sitzt wieder auf dem Stuhl. Diesmal ohne
-Gitarre. Handy in der Hand. Traurig.
 
-FRIEND, 16, ehrlich, mutig, kommt herein.
+                         TAYLOR
+           Ohne euch wäre ich nichts!
+
+Scott kommt auf die Bühne, legt Taylor den Arm
+um die Schulter für ein Foto. Blitzlicht.
+Handy-KLICKS.
+
+
+INT. FLUR VOR DER AULA - ABEND
+
+Taylor und Friend kommen lachend raus. Scott
+telefoniert ein paar Meter weiter.
 
 
                         FRIEND
-           Stimmt das? Deine Songs gehören
-           nicht mehr dir?
+           Das war riesig. Du hast die Halle
+           gerockt!
 
 
                          TAYLOR
-           Ja. Ich habe sie geschrieben. Aber
-           jemand anders besitzt sie jetzt.
+           Ich will das für immer machen.
+
+Scott beendet das Gespräch. Kommt herüber.
+
+
+                         SCOTT
+           Gute Show. Morgen Interview.
+           Übermorgen Studio. Schlaf wenig –
+           Stars schlafen nie.
+
+
+                         TAYLOR
+           Alles klar. Ich bin bereit.
 
 
                         FRIEND
-           Das ist unfair!
+           Und Pause? Freundschaft? Normales
+           Leben?
 
 
-                         TAYLOR
-           Ich weiss. Aber ich gebe nicht auf.
+                         SCOTT
+           Später. Jetzt zählt nur der Erfolg.
 
-Taylor steht auf. Nimmt die Gitarre. Entschlossen.
+Scott geht. Friend sieht Taylor besorgt an.
+Taylor zuckt mit den Schultern – noch glücklich.
 
 
-                         TAYLOR
-           Ich nehme alles noch einmal auf.
-           Diesmal gehören die Songs mir.
+INT. NACHRICHTENSTUDIO - TAG
+
+Ein Schreibtisch. Eine Kamera (Handy auf Stativ).
+NACHRICHTENSPRECHER, 35, seriös, mit Blatt Papier.
+
+
+                 NACHRICHTENSPRECHER
+           Gute Nachrichten für die Fans: Taylor
+           Swift ist der grösste Popstar des
+           Jahres. Alben. Awards. Ausverkaufte
+           Shows.
+
+Ein Bild von Taylor wird hochgehalten (ausgedrucktes
+Foto oder Handy-Display).
+
+
+                 NACHRICHTENSPRECHER
+           Doch hinter den Hits steht ein Vertrag
+           – und der könnte bald zum Problem
+           werden.
+
+DUNKLES MUSIKSTINGER. Schnitt.
+
+
+INT. KLEINES ZIMMER - NACHT
+
+Jahre später. Taylor, jetzt älter wirkend (anderes
+Outfit, selbstbewusster), packt eine Tasche.
+Viele Awards-Fotos an der Wand (selbst gemalt).
+
+Friend kommt rein mit Chips. Setzt sich.
 
 
                         FRIEND
-           Ich helfe dir.
+           Erinnerst du dich an dein erstes
+           Notizbuch?
 
-Sie geben sich die Hand. KURZER MUSIK-AKKORD.
+
+                         TAYLOR
+           Klar. Da stand: Noch geheim.
 
 
-INT. SCHULAULA - BÜHNE - TAG
+                        FRIEND
+           Und jetzt kennt dich jeder.
 
-Wieder die Bühne. Diesmal ein Schild an der Wand:
-TAYLOR'S VERSION. Taylor und Friend stehen zusammen
-am Mikrofon.
 
-Fan 1 und Fan 2 klatschen. Scott steht seitlich
-und schaut überrascht.
+                         TAYLOR
+           Manchmal fühlt es sich an, als gehöre
+           mein Leben nicht mehr mir.
+
+HANDY KLINGELT. Taylor nimmt ab.
+
+
+                         TAYLOR
+           Hallo?
+
+
+                   JOURNALISTIN (O.S.)
+           Taylor, können Sie den Verkauf
+           bestätigen? Big Machine – inklusive
+           Ihrer Master?
+
+
+                         TAYLOR
+                      (verwirrt)
+           Welcher Verkauf?
+
+Sie legt auf. Tippt wild auf dem Handy. Liest.
+Das Gesicht wird blass.
+
+
+                        FRIEND
+           Was ist los?
+
+
+                         TAYLOR
+           Jemand hat das Label gekauft. Mit
+           allen meinen alten Songs. Die Master
+           gehören nicht mehr mir.
+
+Stille. Die Gitarre lehnt noch am Stuhl – wie am
+ersten Tag.
+
+
+EXT. SCHULHOF / VOR DEM EINGANG - TAG
+
+JOURNALISTIN, 28, schnell, neugierig, mit Mikrofon
+(Besenstiel + Schaumstoff). Fan 1 und Fan 2 halten
+Handys hoch.
+
+Taylor kommt raus. Blitzlicht-Geräusche.
+Fragen fliegen durcheinander.
+
+
+                     JOURNALISTIN
+           Taylor! Stimmt der Skandal? Haben Sie
+           die Kontrolle über Ihre Musik
+           verloren?
+
+
+                         FAN 1
+           Sag uns, dass es nicht wahr ist!
+
+
+                         TAYLOR
+           Ich habe jede Note geschrieben. Jede
+           Zeile. Und trotzdem gehören die
+           Aufnahmen jetzt jemand anderem.
+
+
+                     JOURNALISTIN
+           Was sagen Sie zu Scott und dem Label?
+
+
+                         TAYLOR
+           Ich sage: Künstlerinnen sollten die
+           Rechte an ihrer eigenen Musik haben.
+
+Friend zieht Taylor sanft weg. Die Journalistin
+ruft hinterher.
+
+
+                     JOURNALISTIN
+           Eine letzte Frage – was kommt jetzt?
+
+Taylor dreht sich um. Klarer Blick.
+
+
+                         TAYLOR
+           Jetzt kämpfe ich.
+
+
+INT. NACHRICHTENSTUDIO - TAG
+
+Wieder der Nachrichtensprecher. Diesmal ernster.
+
+
+                 NACHRICHTENSPRECHER
+           Der Fall Taylor Swift ist zum lauten
+           Streit der Musikindustrie geworden.
+           Fans protestieren online. Hashtags
+           überall.
+
+Fan 1 und Fan 2 halten Schilder hoch:
+OWN YOUR MASTERS und WE STAND WITH TAYLOR.
+
+
+                         FAN 2
+           Ihre Songs. Ihre Stimme. Ihre Rechte!
+
+
+                 NACHRICHTENSPRECHER
+           Die grosse Frage lautet: Wem gehören
+           Songs eigentlich – dem Label oder der
+           Künstlerin?
+
+
+INT. KLEINES ZIMMER - NACHT
+
+Taylor sitzt auf dem Boden. Notizbücher um sie herum.
+Friend sitzt daneben.
+
+
+                         TAYLOR
+           Ich fühle mich betrogen. Als wäre mein
+           Tagebuch verkauft worden.
+
+
+                        FRIEND
+           Weil es so ist. Deine Songs sind dein
+           Tagebuch.
+
+
+                         TAYLOR
+           Was kann ich tun? Ich kann die
+           Vergangenheit nicht löschen.
+
+Friend denkt nach. Nimmt die Gitarre. Gibt sie
+Taylor.
+
+
+                        FRIEND
+           Dann schreib die Zukunft neu.
+
+
+                         TAYLOR
+           Wie?
+
+
+                        FRIEND
+           Nimm alles noch einmal auf. Note für
+           Note. Taylor's Version. Diesmal
+           gehören die Master dir.
+
+Taylor starrt die Gitarre an. Dann nickt sie langsam.
+
+
+                         TAYLOR
+           Das wird hart. Und lange.
+
+
+                        FRIEND
+           Dann machen wir es zusammen. Ich bin
+           dein Team.
+
+Sie schlagen ein. Erster AKKORD – entschlossen.
+
+
+INT. BÜRO - TAG
+
+Scott am Schreibtisch. Taylor steht vor ihm.
+Friend im Hintergrund.
+
+
+                         SCOTT
+           Du willst die alten Alben neu
+           aufnehmen? Das ist verrückt.
+
+
+                         TAYLOR
+           Verrückt war der Vertrag. Das hier
+           ist fair.
+
+
+                         SCOTT
+           Die Fans wollen die Originale. Nicht
+           Kopien.
+
+
+                         TAYLOR
+           Das sind keine Kopien. Das bin ich –
+           erwachsen. Mit meinen Rechten.
+
+
+                         SCOTT
+           Du wirst scheitern.
+
+
+                         TAYLOR
+           Vielleicht. Aber ich versuche es
+           trotzdem.
+
+Taylor dreht sich um und geht. Friend folgt.
+Scott bleibt allein zurück – unsicher zum ersten Mal.
+
+
+INT. AUFNAHMESTUDIO - TAG
+
+Mikrofon. Kopfhörer. Ein Stuhl. Schild: STUDIO.
+TONTECHNIKER, 25, ruhig, sitzt am „Mischpult“
+(Laptop oder Karton mit Knöpfen).
+
+Taylor mit Gitarre. Friend als Backup. Fan 1 und
+Fan 2 schauen durch die Tür.
+
+
+                     TONTECHNIKER
+           Track eins. Love Story – Taylor's
+           Version. Ready?
+
+
+                         TAYLOR
+           Ready.
+
+METRONOM-KLICK. Taylor singt einen kurzen Teil
+klar und stark. Stopp.
+
+
+                     TONTECHNIKER
+           Klingt besser als das Original.
+
+
+                        FRIEND
+           Weil es jetzt wirklich dir gehört.
+
+Schnelle Montage (kurze Einstellungen): Taylor
+schreibt. Taylor singt. Friend klatscht.
+Schilder werden gebastelt: TAYLOR'S VERSION.
+
+
+                         TAYLOR
+           Nächster Song. Und der nächste. Bis
+           alle wieder meine sind.
+
+
+INT. SCHULAULA - BÜHNE - ABEND
+
+Grosses Schild: TAYLOR'S VERSION – LIVE. Fans mit
+Schildern. Journalistin am Rand. Scott steht weit
+hinten.
+
+Taylor und Friend betreten die Bühne. APPLAUS.
+
+
+                         TAYLOR
+           Heute singe ich nicht nur Hits. Heute
+           hole ich meine Geschichte zurück.
+
+
+                         FAN 1
+           Wir sind bei dir!
+
+
+                         FAN 2
+           Taylor's Version forever!
+
+Taylor spielt. Alle mitsingen. Scott senkt den
+Blick. Die Journalistin notiert etwas.
+
+Am Ende hält Taylor inne. Blickt in die Kamera.
+
+
+                         TAYLOR
+           Wenn ihr etwas erschafft – Kunst,
+           Songs, Texte – dann gehört es euch.
+           Kämpft dafür.
+
+Friend tritt neben sie.
+
+
+                        FRIEND
+           Aufstieg. Skandal. Und Comeback.
 
 
                          TAYLOR
            Meine Songs. Meine Stimme. Meine
            Version.
 
-Taylor spielt einen kurzen Akkord. Alle klatschen.
-Scott geht langsam ab.
+Grosser APPLAUS. Lichter. Taylor lächelt – echt.
 
 
-                         FAN 2
-                    (zur Kamera)
-           Wem gehören Songs?
+                     JOURNALISTIN
+           Taylor! Ein Satz zum Schluss – für
+           alle jungen Musikerinnen und Musiker?
 
 
                          TAYLOR
-           Den Künstlerinnen und Künstlern!
+           Lest Verträge. Fragt nach. Und gebt
+           eure Kunst nicht leichtfertig weg.
 
-APPLAUS. Taylor lächelt – diesmal echt.
+
+                         SCOTT
+                  (leise, von hinten)
+           Du hast gewonnen.
+
+
+                         TAYLOR
+           Nein. Die Musik hat gewonnen.
+
+Friend hebt die Gitarre. Alle klatschen im Takt.
+Kurzer FINAL-SONG (selbst summen oder erlaubte
+Instrumentalmusik).
+
+
+INT. KLASSENZIMMER - TAG
+
+Tafel: MUSIK – AUFSTIEG UND SKANDAL. Die Klasse
+sitzt. MUSIKLEHRER, 40, freundlich, zeigt auf
+die Wörter URHEBERRECHT und MASTER-RECHTE.
+
+
+                      MUSIKLEHRER
+           Was haben wir gelernt?
+
+Eine SCHÜLERIN, 13, hebt die Hand.
+
+
+                       SCHÜLERIN
+           Dass man auf Verträge achten muss.
+           Und dass Songs den Künstlerinnen
+           gehören sollten.
+
+
+                      MUSIKLEHRER
+           Genau. Taylor Swift hat aus einem
+           Skandal eine starke Geschichte
+           gemacht – und neue Musik.
+
+Ein SCHÜLER hebt die Hand.
+
+
+                        SCHÜLER
+           Und dass Freunde wichtig sind. Ohne
+           Friend wäre Taylor vielleicht
+           aufgegeben.
+
+
+                      MUSIKLEHRER
+           Sehr gut. Aufstieg. Skandal.
+           Zusammenhalt. Und dann: eigene
+           Version.
+
+Leise MUSIK unter dem Schlussbild. Die Kamera
+fährt auf die Tafel: AUFSTIEG UND SKANDAL.
+
+Ein letztes Schild wird hochgehalten:
+THE END? NEIN – TAYLOR'S VERSION.
+
+Die Klasse klatscht. Abspann beginnt (Namen der
+Schüler:innen auf Papier vor die Kamera halten).
 
 
                                                     ABBLENDE.
-
-
-============================================================
-TIPPS ZUM FILMEN
-============================================================
-1. Szene 1 + 3 am gleichen Ort drehen (Zimmer-Ecke).
-2. Szene 2 + 4 in der Aula / vor der Tafel drehen.
-3. Dialoge laut und klar sprechen – Handy nah halten.
-4. Zwischen den Szenen 1 Sekunde schwarz (Finger vor Linse).
-5. Am Ende kurzen Songausschnitt oder Summen darunterlegen.

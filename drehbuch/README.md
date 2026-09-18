@@ -1,16 +1,17 @@
 # AUFSTIEG UND SKANDAL – Drehbuch (Musik 7)
 
-Kurzes, schulgeeignetes Drehbuch über Taylor Swift und den Master-Skandal.
+**10 Drehbuchseiten ≈ ca. 10 Minuten Film** (laut Format-Regel).
 
 ## Dateien
 
-- `Aufstieg_und_Skandal_Drehbuch.pdf` – formatiertes Drehbuch
-- `Aufstieg_und_Skandal_Drehbuch.txt` – Text + Filmtipps
-- `../generate_drehbuch.py` – PDF neu erzeugen
+| Datei | Inhalt |
+|-------|--------|
+| `Aufstieg_und_Skandal_Drehbuch.pdf` | Formatiertes Drehbuch (Titelblatt + 10 Seiten) |
+| `Aufstieg_und_Skandal_Drehbuch.txt` | Text + Video-Zeitplan + Props |
+| `../generate_drehbuch.py` | PDF neu erzeugen |
 
-## Umsetzung Klasse 7
+## Für Klasse 7
 
-- **Länge:** ca. 2–3 Minuten
-- **Orte:** 2 (Zimmer-Ecke + Aula/Bühne)
-- **Rollen:** 5 (Taylor, Scott, Friend, Fan 1, Fan 2)
-- **Props:** Gitarre, Vertragspapier, Handy, Mikro, Schilder
+- 4 Schul-Settings (Zimmer, Tisch mit Schild, Aula, Flur)
+- Doppelrollen möglich
+- Songs/Applaus länger halten → kommt auf 10 Minuten
