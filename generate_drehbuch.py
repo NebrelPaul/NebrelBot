@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
-"""Generate Taylor Swift screenplay PDF per Urs Bühler / screenwriter.ch format."""
+"""Drehbuch: AUFSTIEG UND SKANDAL – einfach für Klasse 7."""
 
 from reportlab.lib.pagesizes import A4
-from reportlab.lib.units import cm, mm
+from reportlab.lib.units import cm
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.platypus import (
@@ -10,7 +10,6 @@ from reportlab.platypus import (
     Paragraph,
     Spacer,
     PageBreak,
-    KeepTogether,
     Flowable,
 )
 from reportlab.lib.styles import ParagraphStyle
@@ -52,8 +51,8 @@ def make_styles():
         "title_big": ParagraphStyle(
             "title_big",
             fontName=FONT_BOLD,
-            fontSize=22,
-            leading=28,
+            fontSize=20,
+            leading=26,
             alignment=TA_CENTER,
             spaceAfter=18,
         ),
@@ -145,13 +144,11 @@ def make_styles():
 
 
 def add_page_number(canvas, doc):
-    """Page number top-right; skip title page."""
     page = canvas.getPageNumber()
     if page <= 1:
         return
     canvas.saveState()
     canvas.setFont(FONT, SIZE)
-    # Script pages start at 1 after title page
     canvas.drawRightString(PAGE_W - 2 * cm, PAGE_H - 1.5 * cm, str(page - 1))
     canvas.restoreState()
 
@@ -164,20 +161,11 @@ def action(styles, text):
     return Paragraph(text, styles["action"])
 
 
-def char(styles, name, paren=None):
+def speech(styles, name, text, paren=None):
     items = [Paragraph(name.upper(), styles["char"])]
     if paren:
         items.append(Paragraph(f"({paren})", styles["paren"]))
-    return items
-
-
-def dialogue(styles, text):
-    return Paragraph(text, styles["dialogue"])
-
-
-def speech(styles, name, text, paren=None):
-    items = char(styles, name, paren)
-    items.append(dialogue(styles, text))
+    items.append(Paragraph(text, styles["dialogue"]))
     return items
 
 
@@ -187,351 +175,283 @@ def build():
 
     # ========== TITELBLATT ==========
     story.append(Spacer(1, 4.5 * cm))
-    story.append(Paragraph("WAS MIR GEHÖRT", styles["title_big"]))
+    story.append(Paragraph("AUFSTIEG UND SKANDAL", styles["title_big"]))
     story.append(Spacer(1, 0.8 * cm))
     story.append(Paragraph("von Paul", styles["center"]))
     story.append(Spacer(1, 0.6 * cm))
     story.append(
         Paragraph(
-            "Nach wahren Begebenheiten aus dem Leben<br/>der Musikerin Taylor Swift",
+            "Nach wahren Begebenheiten<br/>aus dem Leben von Taylor Swift",
             styles["center"],
         )
     )
     story.append(
         Paragraph(
-            "(Der Master-Skandal / Big Machine Records)",
+            "(Master-Skandal – einfach für die Schule)",
             styles["center_small"],
         )
     )
     story.append(Spacer(1, 5 * cm))
-    story.append(Paragraph("1. Fassung, 18. September 2026", styles["contact"]))
+    story.append(Paragraph("2. Fassung, 18. September 2026", styles["contact"]))
     story.append(Spacer(1, 0.4 * cm))
     story.append(Paragraph("Paul", styles["contact"]))
-    story.append(Paragraph("Musikklasse 8", styles["contact"]))
+    story.append(Paragraph("Musikklasse 7", styles["contact"]))
     story.append(Paragraph("ALLE RECHTE BEI DEN AUTOREN", styles["contact"]))
     story.append(PageBreak())
 
     # ========== DREHBUCH ==========
+    # Nur 3 Orte (Klasse/Aula), 5 Rollen, kurze Dialoge, ~2–3 Min.
     story.append(Paragraph("AUFBLENDE:", styles["fade_in"]))
 
-    # SZENE 1
-    story.append(scene(styles, "INT. AUFNAHMESTUDIO - NASHVILLE - NACHT"))
+    # ----- SZENE 1: AUFSTIEG -----
+    story.append(scene(styles, "INT. KLEINES ZIMMER - TAG"))
     story.append(
         action(
             styles,
-            "Ein dunkler Raum, voller Kabel und Mikrofone. Eine rote "
-            "AUFNAHME-LAMPE blinkt.",
+            "Ein einfacher Raum. Ein Stuhl. Eine Gitarre. "
+            "TAYLOR, 16, schüchtern, freundlich, mit "
+            "Notizbuch, sitzt und tippt mit dem Stift auf "
+            "den Tisch. RHYTHMUS.",
         )
     )
     story.append(
         action(
             styles,
-            "TAYLOR SWIFT, 19, schlank, konzentriert, mit leuchtenden Augen, "
-            "sitzt mit einer Gitarre vor dem Mikrofon. Sie trägt einen "
-            "schlichten Pullover und Jeans. Neben ihr: ein Notizbuch voller "
-            "Songtexte.",
+            "Sie greift zur Gitarre und singt leise einen "
+            "kurzen Songanfang. (Echte Taylor-Musik nur "
+            "leise im Hintergrund – oder selbst summen.)",
         )
     )
     story.append(
         action(
             styles,
-            "Am Mischpult sitzt SCOTT BORCHETTA, ende vierzig, selbstbewusst, "
-            "im Anzug ohne Krawatte. Er lächelt.",
+            "Die TÜR geht auf. SCOTT, 40, laut, selbstsicher, "
+            "im Jackett, kommt rein. In der Hand: ein Vertrag.",
         )
     )
     story.extend(
         speech(
             styles,
             "SCOTT",
-            "Das war magisch, Taylor. Die Welt wird diesen Song kennen.",
+            "Taylor! Deine Songs sind super. Unterschreib "
+            "hier – und du wirst berühmt.",
         )
     )
     story.extend(
         speech(
             styles,
             "TAYLOR",
-            "Wirklich?",
-            paren="leise, hoffnungsvoll",
+            "Wirklich? Gehören die Songs dann mir?",
+            paren="unsicher",
         )
     )
     story.extend(
         speech(
             styles,
             "SCOTT",
-            "Unterschreib hier. Big Machine Records macht dich gross. "
-            "Die Master-Aufnahmen gehören zum Label – so läuft das "
-            "Geschäft. Du schreibst die Hits. Wir besitzen die Bänder.",
+            "Du singst. Wir kümmern uns um den Rest. "
+            "Vertrau mir.",
         )
     )
     story.append(
         action(
             styles,
-            "Taylor zögert einen Moment. Dann nimmt sie den Stift. "
-            "Unterschreibt.",
-        )
-    )
-    story.append(
-        action(
-            styles,
-            "KLICK der Kugelschreiberspitze. Die AUFNAHME-LAMPE erlischt.",
-        )
-    )
-
-    # SZENE 2
-    story.append(scene(styles, "INT. KONZERTHALLE - BÜHNE - NACHT (JAHRE SPÄTER)"))
-    story.append(
-        action(
-            styles,
-            "Donnernder APPLAUS. Scheinwerfer. Taylor, jetzt mitte "
-            "zwanzig, steht im Glitzerkleid vor tausenden Fans. Sie "
-            "verbeugt sich, strahlt – eine Superstarin.",
-        )
-    )
-    story.append(
-        action(
-            styles,
-            "Ein HANDY in der ersten Reihe filmt. Auf dem Display "
-            "blinkt eine PUSH-NACHRICHT:",
-        )
-    )
-    story.append(
-        action(
-            styles,
-            '"BREAKING: Scooter Braun kauft Big Machine Records – '
-            'inkl. aller Taylor-Swift-Master."',
-        )
-    )
-
-    # SZENE 3
-    story.append(scene(styles, "INT. HOTELSUITE - NACHT"))
-    story.append(
-        action(
-            styles,
-            "Taylor sitzt auf dem Bett, immer noch im Bühnen-Outfit. "
-            "In der Hand: ihr Handy. Das Gesicht ist blass.",
-        )
-    )
-    story.append(
-        action(
-            styles,
-            "Neben ihr sitzt ihre Freundin und Beraterin TREE, 30, "
-            "ruhig, klar, in schwarzer Jacke.",
+            "Taylor zögert. Dann unterschreibt sie. "
+            "KLICK. Scott lächelt.",
         )
     )
     story.extend(
         speech(
             styles,
-            "TREE",
-            "Er besitzt jetzt jeden Song, den du zwischen 2006 und "
-            "2017 aufgenommen hast. Alle Master. Alle Rechte.",
+            "SCOTT",
+            "Willkommen im Showbusiness.",
+        )
+    )
+
+    # ----- SZENE 2: STAR -----
+    story.append(scene(styles, "INT. SCHULAULA - BÜHNE - TAG"))
+    story.append(
+        action(
+            styles,
+            "Taylor steht auf der Bühne mit Mikrofon. "
+            "Sie trägt etwas Glitzer oder ein cooles "
+            "Outfit. Vor der Bühne: FAN 1 und FAN 2 "
+            "mit Schildern: TAYLOR! und #1.",
+        )
+    )
+    story.append(
+        action(
+            styles,
+            "APPLAUS von den Fans. Taylor verbeugt sich, "
+            "lacht, winkt.",
+        )
+    )
+    story.extend(
+        speech(
+            styles,
+            "FAN 1",
+            "Taylor, wir lieben dich!",
         )
     )
     story.extend(
         speech(
             styles,
             "TAYLOR",
-            "Meine Lieder. Meine Nächte. Mein ganzes Leben in diesen "
-            "Alben – und ich darf nicht einmal darüber bestimmen?",
-        )
-    )
-    story.extend(
-        speech(
-            styles,
-            "TREE",
-            "Nicht mehr. Es gehört ihm.",
+            "Danke! Ohne euch geht gar nichts!",
         )
     )
     story.append(
         action(
             styles,
-            "Taylor steht auf. Geht zum Fenster. Die Stadt blinkt unten. "
-            "Sie ballt die Faust – öffnet sie wieder.",
+            "Fan 2 hält ein Handy hoch. Auf dem Display "
+            "eine grosse Nachricht (Schild oder Papier "
+            "aufs Handy kleben):",
+        )
+    )
+    story.append(
+        action(
+            styles,
+            "SKANDAL: Andere besitzen jetzt Taylors Songs!",
+        )
+    )
+    story.append(
+        action(
+            styles,
+            "LEISES MURMELN. Taylor sieht das Handy. "
+            "Ihr Lächeln fällt.",
+        )
+    )
+
+    # ----- SZENE 3: SKANDAL -----
+    story.append(scene(styles, "INT. KLEINES ZIMMER - TAG"))
+    story.append(
+        action(
+            styles,
+            "Taylor sitzt wieder auf dem Stuhl. Diesmal "
+            "ohne Gitarre. Handy in der Hand. Traurig.",
+        )
+    )
+    story.append(
+        action(
+            styles,
+            "FRIEND, 16, ehrlich, mutig, kommt herein.",
+        )
+    )
+    story.extend(
+        speech(
+            styles,
+            "FRIEND",
+            "Stimmt das? Deine Songs gehören nicht mehr dir?",
         )
     )
     story.extend(
         speech(
             styles,
             "TAYLOR",
-            "Dann hole ich sie mir zurück.",
+            "Ja. Ich habe sie geschrieben. Aber jemand "
+            "anders besitzt sie jetzt.",
         )
     )
     story.extend(
         speech(
             styles,
-            "TREE",
-            "Wie?",
-        )
-    )
-    story.extend(
-        speech(
-            styles,
-            "TAYLOR",
-            "Ich nehme alles noch einmal auf. Note für Note. "
-            "Taylor's Version. Diesmal gehören die Master mir.",
-        )
-    )
-
-    # SZENE 4
-    story.append(scene(styles, "EXT. STRASSE VOR DEM HOTEL - TAG"))
-    story.append(
-        action(
-            styles,
-            "Ein Meer aus Kameras und Mikrofonen. Blitzlicht. "
-            "JOURNALISTEN drängen sich vor.",
-        )
-    )
-    story.extend(
-        speech(
-            styles,
-            "JOURNALISTIN",
-            "Taylor! Ist das wahr? Wirst du deine alten Alben "
-            "noch einmal aufnehmen?",
+            "FRIEND",
+            "Das ist unfair!",
         )
     )
     story.extend(
         speech(
             styles,
             "TAYLOR",
-            "Künstlerinnen sollten die Rechte an ihrer eigenen "
-            "Musik haben. Punkt.",
+            "Ich weiss. Aber ich gebe nicht auf.",
         )
     )
     story.append(
         action(
             styles,
-            "Hinter ihr halten Fans Schilder hoch: "
-            '"WE STAND WITH TAYLOR" – "OWN YOUR MASTERS".',
-        )
-    )
-    story.append(
-        action(
-            styles,
-            "SMARTPHONE-KAMERAS klicken. Ein TikTok-SOUND startet "
-            "irgendwo in der Menge.",
-        )
-    )
-
-    # SZENE 5
-    story.append(scene(styles, "INT. NACHRICHTENSTUDIO - TAG"))
-    story.append(
-        action(
-            styles,
-            "Ein NACHRICHTENSPRECHER, 45, seriös, sitzt hinter einem "
-            "Schreibtisch. Hinter ihm eine Grossaufnahme von Taylor.",
-        )
-    )
-    story.extend(
-        speech(
-            styles,
-            "NACHRICHTENSPRECHER",
-            "Was als Vertrag zwischen einem jungen Star und einem "
-            "Label begann, ist zum lautesten Streit der Musikindustrie "
-            "geworden. Die Frage lautet: Wem gehören eigentlich Songs?",
-        )
-    )
-
-    # SZENE 6
-    story.append(scene(styles, "INT. AUFNAHMESTUDIO - TAG"))
-    story.append(
-        action(
-            styles,
-            "Dieselbe Art Raum wie am Anfang – aber heller, grösser. "
-            "Taylor, jetzt erwachsen und entschlossen, steht wieder "
-            "am Mikrofon. Vor ihr: ein Notenständer mit dem Titel "
-            '"Love Story (Taylor\'s Version)".',
-        )
-    )
-    story.append(
-        action(
-            styles,
-            "Die Band wartet. Der Tontechniker hebt den Daumen.",
-        )
-    )
-    story.extend(
-        speech(
-            styles,
-            "TONTECHNIKER",
-            "Ready when you are.",
-        )
-    )
-    story.append(
-        action(
-            styles,
-            "Taylor atmet tief ein. Schliesst kurz die Augen. "
-            "Öffnet sie wieder – klar und ruhig.",
+            "Taylor steht auf. Nimmt die Gitarre. "
+            "Entschlossen.",
         )
     )
     story.extend(
         speech(
             styles,
             "TAYLOR",
-            "Diesmal gehört jede Note mir.",
+            "Ich nehme alles noch einmal auf. Diesmal "
+            "gehören die Songs mir.",
+        )
+    )
+    story.extend(
+        speech(
+            styles,
+            "FRIEND",
+            "Ich helfe dir.",
         )
     )
     story.append(
         action(
             styles,
-            "Sie nickt. Der METRONOM-KLICK setzt ein. Taylor beginnt "
-            "zu singen. Stark. Frei.",
-        )
-    )
-    story.append(
-        action(
-            styles,
-            "Die Kamera fährt langsam zurück. An der Studio-Wand "
-            "hängt ein neues Schild: TAYLOR'S VERSION.",
+            "Sie geben sich die Hand. KURZER MUSIK-AKKORD.",
         )
     )
 
-    # SZENE 7 - kurzer Epilog
-    story.append(scene(styles, "INT. KLASSENZIMMER - TAG"))
+    # ----- SZENE 4: COMEBACK -----
+    story.append(scene(styles, "INT. SCHULAULA - BÜHNE - TAG"))
     story.append(
         action(
             styles,
-            "Ein ganz normales Klassenzimmer. An der Tafel steht: "
-            "MUSIK – TAYLOR SWIFT & DER MASTER-SKANDAL.",
+            "Wieder die Bühne. Diesmal ein Schild an der "
+            "Wand: TAYLOR'S VERSION. Taylor und Friend "
+            "stehen zusammen am Mikrofon.",
         )
     )
     story.append(
         action(
             styles,
-            "Eine SCHÜLERIN, 14, hebt die Hand.",
+            "Fan 1 und Fan 2 klatschen. Scott steht seitlich "
+            "und schaut überrascht.",
         )
     )
     story.extend(
         speech(
             styles,
-            "SCHÜLERIN",
-            "Also... wenn ich einen Song schreibe – gehört der dann mir?",
+            "TAYLOR",
+            "Meine Songs. Meine Stimme. Meine Version.",
         )
     )
     story.append(
         action(
             styles,
-            "Der MUSIKLEHRER, 40, freundlich, zeigt auf das Tafelbild "
-            "mit den Worten URHEBERRECHT und MASTER-RECHTE.",
+            "Taylor spielt einen kurzen Akkord. Alle "
+            "klatschen. Scott geht langsam ab.",
         )
     )
     story.extend(
         speech(
             styles,
-            "MUSIKLEHRER",
-            "Genau das ist die Frage. Und genau deshalb schauen wir "
-            "uns heute Taylor Swift an.",
+            "FAN 2",
+            "Wem gehören Songs?",
+            paren="zur Kamera",
+        )
+    )
+    story.extend(
+        speech(
+            styles,
+            "TAYLOR",
+            "Den Künstlerinnen und Künstlern!",
         )
     )
     story.append(
         action(
             styles,
-            "Aus einem Lautsprecher tönt leise ein Song – "
-            "Taylor's Version. Die Klasse hört zu.",
+            "APPLAUS. Taylor lächelt – diesmal echt.",
         )
     )
 
     story.append(Spacer(1, 1.2 * cm))
     story.append(RightAligned("ABBLENDE."))
 
-    out = "/workspace/drehbuch/Was_mir_gehoert_Taylor_Swift_Drehbuch.pdf"
+    out = "/workspace/drehbuch/Aufstieg_und_Skandal_Drehbuch.pdf"
     doc = SimpleDocTemplate(
         out,
         pagesize=A4,
@@ -539,7 +459,7 @@ def build():
         rightMargin=2.5 * cm,
         topMargin=2.5 * cm,
         bottomMargin=2.5 * cm,
-        title="WAS MIR GEHÖRT – Drehbuch",
+        title="AUFSTIEG UND SKANDAL – Drehbuch",
         author="Paul",
     )
     doc.build(story, onFirstPage=add_page_number, onLaterPages=add_page_number)

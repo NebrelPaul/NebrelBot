@@ -1,29 +1,16 @@
-# WAS MIR GEHÖRT – Drehbuch (Musik 8)
+# AUFSTIEG UND SKANDAL – Drehbuch (Musik 7)
 
-Kurzfilm-Drehbuch über **Taylor Swift** und den **Master-Skandal** (Big Machine / Scooter Braun), formatiert nach den Vorgaben aus `Drehbuch_kumu` (Urs Bühler / screenwriter.ch).
+Kurzes, schulgeeignetes Drehbuch über Taylor Swift und den Master-Skandal.
 
 ## Dateien
 
-| Datei | Inhalt |
-|-------|--------|
-| `Was_mir_gehoert_Taylor_Swift_Drehbuch.pdf` | Abgabe-fertig formatiert (Courier, Titelblatt, AUFBLENDE/ABBLENDE) |
-| `Was_mir_gehoert_Taylor_Swift_Drehbuch.txt` | Textfassung zum Mitlesen / Bearbeiten |
-| `../generate_drehbuch.py` | Script zum erneuten Erzeugen der PDF |
+- `Aufstieg_und_Skandal_Drehbuch.pdf` – formatiertes Drehbuch
+- `Aufstieg_und_Skandal_Drehbuch.txt` – Text + Filmtipps
+- `../generate_drehbuch.py` – PDF neu erzeugen
 
-## Format (laut PDF-Vorgabe)
+## Umsetzung Klasse 7
 
-- Schrift: Courier / monospace, 12 pt
-- Beginn: `AUFBLENDE:`
-- Ende: `ABBLENDE.` (rechtsbündig)
-- Szenentitel: `INT./EXT. – ORT – ZEIT` in GROSSBUCHSTABEN
-- Figuren bei Ersterwähnung: NAME, Alter, 2–3 Adjektive
-- Geräusche/Musik in GROSSBUCHSTABEN
-- Titelblatt mit Titel, Autor, Vorlage, Fassung, Datum, Kontakt
-
-## Inhalt (kurz)
-
-Taylor unterschreibt jung bei Big Machine, verliert später die Master-Rechte, entscheidet sich für **Taylor's Version** und bringt die Frage „Wem gehören Songs?“ zurück in den Musikunterricht.
-
-## Nächster Schritt
-
-Video drehen (ca. 4–5 Min.) anhand der Rollenliste im Drehbuch.
+- **Länge:** ca. 2–3 Minuten
+- **Orte:** 2 (Zimmer-Ecke + Aula/Bühne)
+- **Rollen:** 5 (Taylor, Scott, Friend, Fan 1, Fan 2)
+- **Props:** Gitarre, Vertragspapier, Handy, Mikro, Schilder
